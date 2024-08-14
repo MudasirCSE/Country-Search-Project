@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.countryflag img{
+    width: 200px;
+}
+.countryName{
+    font-size: 30px;
+}
+.location{
+    font-size: 24px;
+}
+.search_area{
+    width: 20vw;
+    padding: 10px 10px;
+    border: 2px solid blue;
+    outline: blue;
+    font-size: 20px;
+}
+.search_area::placeholder{
+    font-size: 16px;
+}
+.search_btn{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    bottom: 18%;
+    left: 48%;
+    border: none;
+}
+.lang{
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+}
+.cap{
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+}
+.searchResult{
+    font-size: 18px;
+    /* visibility: hidden; */
+}
